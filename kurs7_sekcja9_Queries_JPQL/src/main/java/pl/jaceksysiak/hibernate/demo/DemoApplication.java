@@ -67,7 +67,7 @@ public class DemoApplication implements CommandLineRunner {
 		studentRepository.insertStudentAndCourse(new Student("Jack"), new Course("Microservices in 100 Steps"));
 		*/
 		
-
+/*
 		// Jack FullTimeEmployee salary - 10000$
 		// Jill PartTimeEmployee - 50$ per hour
 		employeeRepository.insert(new PartTimeEmployee("Jill", new BigDecimal("50")));
@@ -80,6 +80,8 @@ public class DemoApplication implements CommandLineRunner {
 		
 		logger.info("Part Time Employees -> {}", 
 				employeeRepository.retrieveAllPartTimeEmployees());
+		*/
+		
 		
 	}
 }
